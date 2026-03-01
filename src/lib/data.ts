@@ -9,7 +9,7 @@ let _cache: StaticData | null = null;
 
 export async function fetchAllData(): Promise<StaticData> {
     if (_cache) return _cache;
-    const res = await fetch('/data/static.json');
+    const res = await fetch(`${import.meta.env.BASE_URL}data/static.json`);
     if (!res.ok) throw new Error('Failed to load static data');
     _cache = await res.json();
     return _cache!;
