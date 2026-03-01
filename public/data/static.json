@@ -1,0 +1,103 @@
+{
+    "stats": {
+        "meals_rescued_month": 1280,
+        "avg_consolidation_ratio": 3,
+        "active_volunteers": 152
+    },
+    "donations": [
+        {
+            "id": "D-1001",
+            "title": "Wedding Surplus - Sambar Sadam",
+            "type": "Meals",
+            "donor_name": "Sri Meenakshi Hall",
+            "time": "2026-02-12T18:30:00+05:30",
+            "location": "50 Kalyana St, Mylapore",
+            "volume": 150,
+            "notes": "Hot rice & sambar, sealed aluminium trays"
+        },
+        {
+            "id": "D-1002",
+            "title": "Temple Anna Prasad",
+            "type": "Liquids",
+            "donor_name": "Sri Venkatesa Temple",
+            "time": "2026-02-12T19:00:00+05:30",
+            "location": "52 Kalyana St, Mylapore",
+            "volume": 80,
+            "notes": "Laddu syrup in 20-l containers, kept covered"
+        },
+        {
+            "id": "D-1003",
+            "title": "Catered Tiffin Batch",
+            "type": "Tiffin",
+            "donor_name": "Rao Caterers",
+            "time": "2026-02-12T19:15:00+05:30",
+            "location": "48 Kalyana St, Mylapore",
+            "volume": 120,
+            "notes": "Idli & chutney packed in compostable boxes"
+        }
+    ],
+    "clusters": [
+        {
+            "id": "C-3001",
+            "name": "Kalyana St Rescue Mission",
+            "donation_ids": [
+                "D-1001",
+                "D-1002",
+                "D-1003"
+            ],
+            "estimated_total_volume": 350,
+            "suggested_route": [
+                "48 Kalyana St",
+                "50 Kalyana St",
+                "52 Kalyana St"
+            ],
+            "cluster_time": "2026-02-12T19:20:00+05:30"
+        }
+    ],
+    "volunteers": [
+        {
+            "id": "V-211",
+            "name": "Meena",
+            "vehicle": "Scooter",
+            "rating": 4.8,
+            "last_active": "2026-02-12T18:50:00+05:30"
+        },
+        {
+            "id": "V-215",
+            "name": "Ravi",
+            "vehicle": "Van",
+            "rating": 4.6,
+            "last_active": "2026-02-12T19:00:00+05:30"
+        },
+        {
+            "id": "V-222",
+            "name": "Priya",
+            "vehicle": "Scooter",
+            "rating": 4.9,
+            "last_active": "2026-02-12T19:05:00+05:30"
+        }
+    ],
+    "trust_samples": [
+        {
+            "donor": "Sri Meenakshi Hall",
+            "score": 92,
+            "recipient_rating": 4.7,
+            "on_time_pct": 96,
+            "checklist_compliance": 0.94
+        },
+        {
+            "donor": "Sri Venkatesa Temple",
+            "score": 88,
+            "recipient_rating": 4.5,
+            "on_time_pct": 92,
+            "checklist_compliance": 0.90
+        },
+        {
+            "donor": "Rao Caterers",
+            "score": 95,
+            "recipient_rating": 4.9,
+            "on_time_pct": 98,
+            "checklist_compliance": 0.98
+        }
+    ]
+}
