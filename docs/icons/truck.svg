@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" aria-label="Truck icon">
+  <rect x="4" y="16" width="28" height="20" rx="3" fill="#CCFBF1" stroke="#0F766E" stroke-width="2"/>
+  <path d="M32 20 L44 26 L44 36 L32 36 Z" fill="#0F766E" opacity="0.7" stroke="#0F766E" stroke-width="1.5"/>
+  <circle cx="12" cy="38" r="4" fill="#0F766E"/>
+  <circle cx="36" cy="38" r="4" fill="#0F766E"/>
+</svg>

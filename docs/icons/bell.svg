@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" aria-label="Bell icon">
+  <path d="M24 6 C16 6 12 13 12 20 L10 34 L38 34 L36 20 C36 13 32 6 24 6 Z" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="20" y="34" width="8" height="4" rx="2" fill="#F59E0B"/>
+  <circle cx="24" cy="42" r="3" fill="#D97706"/>
+  <line x1="24" y1="6" x2="24" y2="3" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+</svg>
